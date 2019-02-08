@@ -1,5 +1,23 @@
 h1 {
     text-align: center;
+    font-family:'Sigmar One';
+    color:#f5f5f5;
+}
+body
+{
+    background-color:#7a9d96;
+    margin:10px;
+}
+p
+{
+    color:#f5f5f5;
+}
+.subHeader
+{
+    font-family:'Boogaloo';
+    font-size:20px;
+    text-decoration:underline;
+    color:#373737;
 }
 
 #cart {
@@ -7,6 +25,7 @@ h1 {
     justify-content: center;
     border-top: 5px solid black;
     border-bottom: 5px solid black;
+    font-family:'Nova Mono';
 }
 
 .column {
@@ -34,19 +53,17 @@ h1 {
     margin: 20px;
 }
 
-#lengths p {
+#lengths p{
     font-size: 16px;
     height: 100px;
-    margin: 20px;
-    text-align: right;
+    margin-top:30px;
 }
 
-#links a {
-    display: block;
-    font-size: 18px;
-    height: 100px;
-    font-weight: bold;
-    margin: 20px;
+#links button{
+    Display:flex;
+    flex-direction:column;
+    padding:10px;
+    margin-bottom:80px;
 }
 
 #form {
@@ -54,7 +71,10 @@ h1 {
     margin: 0 auto 20px auto;
     font-size: 18px;
 }
-
+#sunnyPM
+{
+    margin-top:40px;
+}
 input {
     padding: 5px 10px;
     font-size: 14px;
@@ -62,5 +82,7 @@ input {
 
 button {
     font-size: 14px;
-    padding: 5px 10px;
+    border:3px double white;
+    color:white;
+    background-color:#373737;
 }

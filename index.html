@@ -2,6 +2,7 @@
 <html>
     <head>
         <title> PlayList Project! </title>
+        <link href="https://fonts.googleapis.com/css?family=Boogaloo|Lato|Nova+Mono|Sigmar+One" rel="stylesheet">
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <!-- Your CSS -->
@@ -9,9 +10,22 @@
     </head>
 
     <body>
-        <h1>My Playlist</h1>
+        <audio class = "Music">
+            <source src = "Papa Ya - Sunny.mp3"></source>
+        </audio>
+        <audio id = "Music1">
+            <source src = "Do It All The Time - IDKHow.mp3"></source>
+        </audio>
+        <audio id = "Music2">
+            <source src = "Caravan Palace - Lone Digger.mp3"></source>
+        </audio>
+        <audio id = "Music3">
+            <source src = "Old Yellow Bricks.mp3"><source>
+        </audio>
+        
+        <h1>~My Garbage Music~</h1>
         <div id="form">
-            <p>Add a new song:</p>
+            <p class = "subHeader">Add a new song:</p>
             <input placeholder="Song Name" id="song">
             <input placeholder="Artist Name" id="artist">
             <input placeholder="Song Length" id="length">
@@ -21,19 +35,21 @@
         </div>
         <div id="cart">
             <div class="column" id="images">
-            
             </div>
             <div class="column" id="songs">
-            
+            <h2 class = "subHeader">Song Names</h2>
             </div>
             <div class="column" id="artists">
-            
+            <h2 class = "subHeader">Artists</h2>
             </div>
             <div class="column" id="lengths">
-            
+            <h2 class = "subHeader">Time</h2>
             </div>
             <div class="column" id="links">
-            
+                <button id = "sunnyPM">Sunny</button>
+                <button id = "IDKHowPM">Do It All The Time</button>
+                <button id = "loneDiggerPM">Lone Digger</button>
+                <button id = "articMonkeysPM">Old Yellow Bricks</button>
             </div>
         </div>
         <!-- jQuery -->
